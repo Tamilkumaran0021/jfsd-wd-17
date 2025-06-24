@@ -1,5 +1,7 @@
 package day.four;
 
+import java.util.Arrays;
+
 public class StringProblems {
     public static void main(String[] args) {
         String s = "hello world";
@@ -13,7 +15,9 @@ public class StringProblems {
 //            System.out.println(s.charAt(i));
 //        }
 
-        _isPalindrome(s);
+//        _isPalindrome(s);
+
+        isAnagram("dog", "god");
     }
 
     // palindrome -> madam
@@ -54,11 +58,52 @@ public class StringProblems {
         } else {
             System.out.println("not a palindrome");
         }
+    }
+
+    // dog , god -> o(n2)
+    // o(n)
+    public static void isAnagram(String s1, String s2) {
+        char[] ch1 = s1.toCharArray();
+        Arrays.sort(ch1);
+
+        char[] ch2 = s2.toCharArray();
+        Arrays.sort(ch2);
+
+        if (Arrays.equals(ch1, ch2)) {
+            System.out.println("Anagram");
+        } else {
+            System.out.println("Not an anagram");
+        }
+    }
+
+    public static void _isAnagram(String s1, String s2) {
+        s1 = s1.toLowerCase();
+        s2 = s2.toLowerCase();
+
+        char[] chars = new char[26]; // 0       -  25
+        //                              97 % 97 - 122 % 97
+
+        for (int i = 0; i < s1.length(); i++) {
+            char c = s1.charAt(i);
+            int j = c;
+            chars[j % 97]++;
+        }
+
+        for (int i = 0; i < s2.length(); i++) {
+            char c = s2.charAt(i);
+            int j = c;
+            chars[j % 97]--;
+        }
+
+        for (int i = 0; i < chars.length; i++) {
+            if (chars[i] != 0) {
+                System.out.println("not an anagram");
+                break;
+            }
+        }
 
 
     }
 
-}
 
-// 10  9 8
-//  0  1 2
+}
