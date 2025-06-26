@@ -1,23 +1,44 @@
 package day.six.constructors;
 
-public class Student {
+public class Student extends Person {
 
     // default constructor
     public Student() {
 
     }
 
-
-    // parametrised constructor
-    public Student(String _name, int _age, double _gradle) {
-//        System.out.println("hi from constructor");
-        name = _name;
-        age = _age;
-        grade = _gradle;
-    }
-
-
     public String name;
     public int age;
     public double grade;
+
+    // parametrised constructor
+    public Student(String name, int age, double grade) {
+//        System.out.println("hi from constructor");
+
+        this.name = name;
+        this.age = age;
+        this.grade = grade;
+        this.add();
+    }
+
+    public Student(String name, int age, double grade, String aahaarNo, String panCard) {
+//        System.out.println("hi from constructor");
+
+        super(aahaarNo, panCard);
+        this.name = name;
+        this.age = age;
+        this.grade = grade;
+        this.add();
+        super.sub();
+    }
+
+    public void add() {
+
+    }
+
+    public Student get() {
+        return this;
+    }
+
+
 }
