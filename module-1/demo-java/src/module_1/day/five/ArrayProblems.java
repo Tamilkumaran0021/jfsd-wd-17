@@ -15,7 +15,9 @@ public class ArrayProblems {
 
         int[] arr1 = {1, 3, 5, 6};
         int[] arr2 = {2, 4, 6, 7, 8};
-        mergeArray(arr1, arr2);
+//        mergeArray(arr1, arr2);
+
+        System.out.println(binarySearch(arr2, 0, arr2.length - 1, 4));
     }
 
     // find the max value from the array
@@ -116,5 +118,24 @@ public class ArrayProblems {
         }
     }
 
+    public static int binarySearch(int[] arr, int low, int high, int target) {
+        if (low <= high) {
+            int mid = (high + low) / 2;
 
+            if (arr[mid] == target) {
+                return mid;
+            } else if (arr[mid] < target) {
+//                low = mid + 1;
+//                mid = (high + low) / 2;
+//
+//                if (arr[mid] == target){
+//                    return mid;
+//                }
+                return binarySearch(arr, mid + 1, high, target);
+            } else {
+                return binarySearch(arr, low, mid - 1, target);
+            }
+        }
+        return -1;
+    }
 }

@@ -50,4 +50,6 @@ public class Problems {
             System.out.println();
         }
     }
+
+    // 1 + n3 + n2 -> n3
 }
