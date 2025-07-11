@@ -1,4 +1,4 @@
-package module_1.day.sixteen.multi_threading;
+package module_1.day.sixteen_additional_2.multi_threading;
 
 public class VolatileDemo {
     private volatile int counter = 0;
