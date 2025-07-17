@@ -1,0 +1,215 @@
+/* h1 {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f4f4f4;
+  color: #555555;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: lighter;
+
+  font: lighter 16px Arial, Helvetica, sans-serif;
+  line-height: 1.6em;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: green;
+}
+
+a:visited {
+  /* color: yellow; */
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.box-1 {
+  background-color: #333;
+  color: #fff;
+  border-top: 5px red solid;
+  border-bottom: 5px red dotted;
+
+  padding: 20px 10px;
+  margin: 20px 0;
+
+  height: 300px;
+  width: 400px;
+  overflow: auto;
+}
+
+.box-1 h1 {
+  font-weight: 800;
+  font-style: italic;
+  text-decoration: underline;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  word-spacing: 1em;
+}
+
+.categories {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 15px;
+  margin: 10px;
+}
+.categories h2 {
+  text-align: center;
+}
+
+.categories ul {
+  padding: 0;
+  padding-left: 20px;
+  list-style: none;
+}
+
+.categories li {
+  padding-bottom: 6px;
+  list-style-image: url("../images/check.png");
+}
+
+.my-form {
+  padding: 20px;
+}
+
+.my-form .form-group {
+  padding-bottom: 15px;
+}
+
+.my-form label {
+  display: block;
+}
+
+.my-form input[type="text"] {
+  padding: 8px;
+  width: 100%;
+}
+
+.block {
+  float: left;
+  width: 33.3%;
+  border: 1px solid black;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#main-block {
+  float: left;
+  width: 70%;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+#sidebar {
+  float: right;
+  width: 30%;
+  background-color: #333;
+  color: #fff;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.p-box {
+  width: 800px;
+  height: 500px;
+  border: 1px solid #000;
+  margin-top: 30px;
+  background-image: url("../images/bgimage.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  position: relative;
+}
+
+.p-box h1 {
+  position: absolute;
+  top: 100px;
+  left: 200px;
+}
+
+.p-box h2 {
+  position: absolute;
+  bottom: 40px;
+  right: 100px;
+}
+
+.fix-me {
+  position: fixed;
+  top: 20px;
+}
+
+.my-list li:first-child {
+  background-color: red;
+}
+
+.my-list li:last-child {
+  background-color: blue;
+}
+
+.my-list li:nth-child(3) {
+  background-color: blue;
+}
+
+.dropdown button {
+  border: none;
+  background-color: #333;
+  color: #fff;
+  margin-top: 10px;
+  padding: 15px;
+  cursor: pointer;
+  min-width: 50px;
+}
+
+.dropdown a {
+  display: block;
+  background-color: rgb(118, 128, 109);
+  color: #fff;
+}
+
+.dropdown .content {
+  min-width: 80px;
+  position: absolute;
+  display: none;
+}
+
+.dropdown:hover .content {
+  display: block;
+}
+
+.nav-bar ul {
+  list-style: none;
+  background-color: #555;
+  overflow: hidden;
+}
+
+.nav-bar a {
+  color: #f4f4f4;
+  padding: 15px;
+  display: block;
+  text-align: center;
+}
+
+.nav-bar a:hover {
+  background-color: hsl(0, 0%, 10%);
+}
+
+.nav-bar li {
+  float: left;
+}
