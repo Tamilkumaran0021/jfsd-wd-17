@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link th:href="@{/css/demo.css}" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+<a th:href="@{/variable-expression}">variable-expression</a> <br>
+<a th:href="@{/selection-expression}">selection-expression</a> <br>
+<p>
+    <a th:href="@{link-expression/{id}(id=${id})}">link with parameter</a>
+</p>
+</body>
+</html>
