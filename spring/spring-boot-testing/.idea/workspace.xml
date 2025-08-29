@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="61b235c5-dfd2-47c6-ae3d-2e62a90e69f6" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="2YsR4R2Nd9pcYF02cSlKo2bqDel" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.SpringBootTestingApplication.executor": "Run",
+    "JUnit.EmployeeRepositoryTests.executor": "Run",
+    "JUnit.EmployeeRepositoryTests.givenEmployeeObject_whenSave_thenReturnSavedEmployee.executor": "Run",
+    "JUnit.EmployeeRepositoryTests.givenEmployee_whenFindById_thenReturnEmployee.executor": "Run",
+    "JUnit.EmployeeRepositoryTests.givenEmployee_whenUpdateEmployee_thenReturnUpdatedEmployee.executor": "Run",
+    "JUnit.EmployeeRepositoryTests.givenEmployeesList_whenFindAll_thenReturnEmployeesList.executor": "Run",
+    "JUnit.EmployeeServiceTests.executor": "Run",
+    "JUnit.EmployeeServiceTests.givenEmployeeId_whenDeleteEmployee_thenNothing.executor": "Run",
+    "JUnit.EmployeeServiceTests.givenEmployeeObject_whenSave_thenReturnSavedEmployee.executor": "Run",
+    "JUnit.EmployeeServiceTests.givenEmployeesList_whenFindAll_thenReturnEmployeesList.executor": "Run",
+    "JUnit.EmployeeServiceTests.givenEmployeesList_whenFindAll_thenReturnEmptyEmployeesList.executor": "Run",
+    "JUnit.EmployeeServiceTests.givenExistingEmail_whenSave_thenThrowsException.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/preethir/Downloads/jfsd-wd-17/spring-unit-testing-base-project-main/spring-boot-testing",
+    "settings.editor.selected.configurable": "com.poratu.idea.plugins.tomcat.setting.TomcatServersConfigurable"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.EmployeeServiceTests">
+    <configuration name="EmployeeServiceTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springboot.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.springboot.service" />
+      <option name="MAIN_CLASS_NAME" value="com.springboot.service.EmployeeServiceTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeServiceTests.givenEmployeeId_whenDeleteEmployee_thenNothing" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springboot.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.springboot.service" />
+      <option name="MAIN_CLASS_NAME" value="com.springboot.service.EmployeeServiceTests" />
+      <option name="METHOD_NAME" value="givenEmployeeId_whenDeleteEmployee_thenNothing" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeServiceTests.givenEmployeesList_whenFindAll_thenReturnEmployeesList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springboot.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.springboot.service" />
+      <option name="MAIN_CLASS_NAME" value="com.springboot.service.EmployeeServiceTests" />
+      <option name="METHOD_NAME" value="givenEmployeesList_whenFindAll_thenReturnEmployeesList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeServiceTests.givenEmployeesList_whenFindAll_thenReturnEmptyEmployeesList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springboot.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.springboot.service" />
+      <option name="MAIN_CLASS_NAME" value="com.springboot.service.EmployeeServiceTests" />
+      <option name="METHOD_NAME" value="givenEmployeesList_whenFindAll_thenReturnEmptyEmployeesList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeServiceTests.givenExistingEmail_whenSave_thenThrowsException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springboot.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.springboot.service" />
+      <option name="MAIN_CLASS_NAME" value="com.springboot.service.EmployeeServiceTests" />
+      <option name="METHOD_NAME" value="givenExistingEmail_whenSave_thenThrowsException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.EmployeeServiceTests" />
+        <item itemvalue="JUnit.EmployeeServiceTests.givenEmployeeId_whenDeleteEmployee_thenNothing" />
+        <item itemvalue="JUnit.EmployeeServiceTests.givenEmployeesList_whenFindAll_thenReturnEmptyEmployeesList" />
+        <item itemvalue="JUnit.EmployeeServiceTests.givenEmployeesList_whenFindAll_thenReturnEmployeesList" />
+        <item itemvalue="JUnit.EmployeeServiceTests.givenExistingEmail_whenSave_thenThrowsException" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="61b235c5-dfd2-47c6-ae3d-2e62a90e69f6" name="Changes" comment="" />
+      <created>1701312108866</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701312108866</updated>
+    </task>
+    <servers />
+  </component>
+</project>
